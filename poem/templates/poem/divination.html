@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block HeaderLinks %}
+    <link rel="stylesheet" href="{% static 'poem/css/divination-style.css' %}">
+{% endblock %}
+
+{% block title %}
+    فال شما
+{% endblock %}
+
+{% block main %}
+
+    <br/>
+    
+    <div class="text-center">
+        <h3>غزل شماره {{ divination.number }}</h3>
+    </div>
+
+    <!-- باکس شعر -->
+    <div class="box">
+        <pre id="orgPoem" class="text-center">{{ divination.poem }}</pre>
+    </div>
+
+    <br/>
+
+    <!-- باکس تفسیر -->
+    <div class="box text-right">
+        <p>{{ divination.interpretation }}</p>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+
+{% endblock %}

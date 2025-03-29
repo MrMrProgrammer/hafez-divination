@@ -1,0 +1,42 @@
+@font-face {
+    src: url("../font/Yekan.ttf");
+    font-family: 'Yekan';
+}
+
+@font-face {
+    src: url("../font/IranNastaliq.ttf");
+    font-family: 'IranNastaliq';
+}
+
+body {
+    font-family: 'Yekan';
+    direction: rtl;
+    background-color: #C6E2FF;
+    /* max-width: 500px; */
+}
+
+#header {
+    width: 100%;
+    height: auto;
+
+    /*background-color: #51b730;*/
+    background-color: #28a745;
+    border-radius: 0 0 20px 20px;
+}
+
+#header  h1 {
+    margin-top: 2%;
+}
+
+#header a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    /*background-color: #51b730;*/
+    background-color: #28a745;
+    margin: 0 15px 0 15px;
+    border-radius: 25px 25px 0 0;
+    padding: 10px;
+}

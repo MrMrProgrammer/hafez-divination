@@ -5,11 +5,11 @@ class PoemSerializer(serializers.ModelSerializer):
     class Meta:
         model = Poem
         fields = [
-            'uuid',
             'number',
             'poem',
             'interpretation',
-            'is_active',
-            'created_at',
-            'updated_at',
+            # 'uuid',
+            # 'is_active',
+            # 'created_at',
+            # 'updated_at',
         ]

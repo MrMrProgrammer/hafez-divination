@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="fa">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta charset="UTF-8">
+
+        <title>
+            {% block title %}Home{% endblock %}
+        </title>
+
+        <link rel="stylesheet" href="{% static 'layout/css/bootstrap.css' %}" />
+        <link rel="stylesheet" href="{% static 'layout/css/layout-style.css' %}" />
+
+        {% block HeaderLinks %}{% endblock %}
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+
+            <div id="header" class="text-center">
+                <div class="row">
+                    <div class="col-12">
+
+                        <a href="/poem/">
+                            <h1>فال حافظ</h1>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="main">
+
+                <div class="container">
+                    {% block main %}{% endblock %}
+                </div>
+
+            </div>
+
+            <div id="footer">
+
+                <div class="footer fixed-bottom text-center" >
+                    ساخته شده با 💙 در ایران
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
