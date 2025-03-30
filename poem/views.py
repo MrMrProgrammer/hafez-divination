@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import View
 
-from rest_framework import mixins, generics, status
+from rest_framework import mixins, generics, status, permissions
 from rest_framework.response import Response
 from rest_framework.request import Request
 from rest_framework import viewsets
@@ -13,10 +13,12 @@ from .models import Poem
 class PoemApiView(viewsets.ModelViewSet):
     queryset = Poem.objects.filter(is_active=True).all()
     serializer_class = PoemSerializer
+    permission_classes = [permissions.IsAuthenticated]
     
 
 class DivinationApiView(mixins.RetrieveModelMixin, generics.GenericAPIView):
     serializer_class = PoemSerializer
+    permission_classes = [permissions.AllowAny]
 
     def get(self, request: Request):
         divination = Poem.objects.order_by('?').first()
