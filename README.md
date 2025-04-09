@@ -93,7 +93,8 @@
 ---
 مطالعه بیشتر :
 
-https://sokanacademy.com/plus/hrmadani/%D8%A7%D8%AD%D8%B1%D8%A7%D8%B2-%D9%87%D9%88%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D8%B3%D8%B1%D9%88%DB%8C%D8%B3-%D8%AA%DA%A9%D9%86%DB%8C%DA%A9-%D9%87%D8%A7-%D9%88-%D8%B1%D9%88%D8%B4-%D9%87%D8%A7?utm_source=chatgpt.com
+https://sokanacademy.com/plus/hrmadani/%D8%A7%D8%AD%D8%B1%D8%A7%D8%B2-%D9%87%D9%88%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D8%B3%D8%B1%D9%88%DB%8C%D8%B3-%D8%AA%DA%A9%D9%86%DB%8C%DA%A9-%D9%87%D8%A7-%D9%88-%D8%B1%D9%88%D8%B4-
+%D9%87%D8%A7?utm_source=chatgpt.com
 
 
 
